@@ -1,0 +1,45 @@
+.hireme{
+    text-align: center;
+    margin: 50px 15%;
+
+    .bilans{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 40px;
+        .bilan{
+            min-height: 150px;
+            background-color: rgba($color: #000000, $alpha: 0.3);
+            h1{
+                color: $primary-color;
+                font-size: 30px;
+            }
+            h2{
+                font-size: 20px;
+                margin: 20px 20%;
+                margin-top: -10px;
+                color: rgba($color: white, $alpha: 0.7);
+            }
+
+        }
+
+    }  
+
+    .contenu{
+        background: url('../../../public/g.jpg');
+        background-size: cover;
+        
+
+        margin-top:  -60px;
+        .disponible{
+            background-color: rgba($color: black, $alpha: 0.3);
+             padding:10% 15%;
+           
+        }
+        h2{
+            font-size: 50px;
+        }
+        p{
+            color: gray;
+        }
+    }
+}

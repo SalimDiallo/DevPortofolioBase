@@ -1,0 +1,47 @@
+.skyls{
+    margin: 10px 15% 40px 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    transition: 1s ease-in-out;
+    p{
+        color: rgba($color: gray, $alpha: 1.0);
+    }
+
+    .stats{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: wrap;
+        .stat{
+            padding: 15px 5px 15px 5px;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+            width: 45%;
+            .infos{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .evolutionBloc{
+                position: relative;
+                background-color: rgba($color: black, $alpha: 0.3);
+                height: 10px;
+                width: 500px;
+                border-radius: 35px;
+                .interne{
+                    position: absolute;
+                    height: 100%;
+                    background-color: $primary-color;   
+                    border-radius: 35px 0px 0px 35px;
+                }
+            }
+    }
+
+    }
+}
